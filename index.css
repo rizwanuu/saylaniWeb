@@ -1,0 +1,118 @@
+html,body{
+	height: 100%;
+	width: 100%;
+	font-family: sans-serif;
+	color: #222;
+}
+.navbar{
+	padding: .8rem;
+	background-color: #234165;
+	color: white;
+}
+.navbar-nav li{
+	padding-right: 20px;
+	border-radius: 3px;
+}
+.navbar-nav li:hover{
+	background-color: #32C91C;
+	text-align: center !important;
+	padding-left: 12px;
+}
+.nav-link{
+	font-size: 1.1em !important;
+	/*color: white;*/
+}
+.carousel-inner img{
+	height: 450px;
+	width: 100%;
+}
+.carousel-caption{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.carousel-caption h1{
+	font-size: 500%;
+	text-transform: uppercase;
+	text-shadow: 5px 8px 15px #000;
+}
+.carousel-caption h3{
+	font-size: 200%;
+	font-weight: 500px;
+	text-shadow: 5px 8px 10px #000;
+	padding-bottom: 1rem;
+}
+.display-4{
+	/*font-size: 500%;*/
+	/*text-transform: uppercase;*/
+	text-shadow: 10px 0px 15px #000;
+	font-weight: 300px;
+	font-family: arial;
+}
+/*.btn-primary{
+	background-color: #563d7c;
+	border: 1px solid #5648b1;
+}
+.btn-primary:hover{
+	background-color: #563d7c;
+	border: 1px solid #563d7c;
+}*/
+.jumbotron {
+	height: 160px;
+	padding: 1rem;
+	border-radius: 0;
+}
+.padding{
+	padding-bottom: 3rem;
+}
+.welcome { 
+	padding-top: 2rem;
+}
+.welcome hr{
+	border-top: 2px solid #b4b4b4; 
+	width: 51%;
+	margin-top: .3rem; 
+	margin-bottom: 1rem;
+}
+.col-12 h1{
+	padding-bottom: 2rem;
+}
+.col-12 p{
+	width: 55%;
+	margin: 0 auto;
+}
+.fa-code, .fa-bold, .fa-css3{
+	font-size: 4em;
+	margin: 1rem;
+}
+.fun{
+	width: 100%;
+	margin-bottom: 2rem;
+}
+.gif{
+	max-width: 100%;
+}
+.social a{
+	font-size: 4.5em;
+	padding: 3rem;
+}
+footer{
+	background-color: #3f3f3f;
+	color: #d5d5d5;
+	padding-top: 2rem;
+}
+.light{
+	border-top: 1px solid #d5d5d5;
+	width: 75%;
+	margin-top: .8rem;
+	margin-bottom: 1rem;
+}
+footer a{
+	color: #d5d5d5;
+}
+hr.light-100{
+	border-top: 1px solid #d5d5d5;
+	width: 100%;
+	margin-top: .8rem;
+	margin-bottom: 1rem;
+}
